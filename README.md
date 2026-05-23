@@ -165,13 +165,7 @@ wolfram-kernel-mcp/
 │   ├── package.json
 │   └── tsconfig.json
 │
-├── wolfram.sh                        # Bash helper: quick Wolfram code execution
-├── wolfram_repl.py                   # Standalone Python REPL (no MCP needed)
-├── wolfram_daemon.py                 # Unix-socket Wolfram daemon
-│
-├── calculus_intro.md                 # Demo: calculus tutorial (Wolfram-generated plots)
-├── common_integrals.md               # Demo: integral table
-└── schwarzschild_tensors.md          # Demo: GR tensor analysis (Schwarzschild metric)
+└── wolfram.sh                        # Bash helper: quick Wolfram code execution
 ```
 
 ---

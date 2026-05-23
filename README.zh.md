@@ -334,16 +334,7 @@ wolfram-kernel-mcp/
 │           ├── result-parser.ts       # 输出解析（Text/Graphics/Error）
 │           └── graphics.ts            # 图形导出（PNG）
 │
-├── wolfram.sh                         # Shell 便捷脚本 — 快速运行 Wolfram 代码
-├── wolfram_repl.py                    # Python 独立 REPL（不依赖 MCP）
-├── wolfram_daemon.py                  # Python 常驻守护进程（Unix Socket）
-│
-├── plot_functions.wl                  # Wolfram 脚本示例
-├── plot_functions.py                  # Matplotlib 对照示例
-│
-├── calculus_intro.md                  # 微积分入门教程（Wolfram 生成图表）
-├── common_integrals.md                # 常见积分表
-└── schwarzschild_tensors.md           # Schwarzschild 度规张量分析
+└── wolfram.sh                         # Shell 便捷脚本 — 快速运行 Wolfram 代码
 ```
 
 ---
@@ -581,8 +572,6 @@ rm -rf /tmp/wolfram-kernel/
 ## 相关文档
 
 - [wolfram-kernel-service/README.md](wolfram-kernel-service/README.md) — Service 详细使用指南
-- [calculus_intro.md](calculus_intro.md) — 微积分入门教程（Wolfram 生成图表示例）
-- [schwarzschild_tensors.md](schwarzschild_tensors.md) — 广义相对论张量分析示例
 - [MCP 协议规范](https://modelcontextprotocol.io)
 
 ---
