@@ -1,0 +1,10 @@
+node_modules/
+dist/
+*.pid
+.sock
+.DS_Store
+._*
+*.tmp
+/tmp/
+.claude/mcp.json
+.claude/settings.local.json

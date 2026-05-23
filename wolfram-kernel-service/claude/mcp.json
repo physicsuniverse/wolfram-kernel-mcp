@@ -1,0 +1,9 @@
+{
+  "mcpServers": {
+    "wolfram-kernel": {
+      "command": "bun",
+      "args": ["run", "/PATH/TO/wolfram-kernel-service/dist/index.js"],
+      "description": "Persistent Wolfram Language kernel service — execute code with stateful sessions"
+    }
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "name": "wolfram-kernel-service",
+  "version": "1.0.0",
+  "description": "Persistent Wolfram Kernel as a Service — AI-accessible via MCP protocol",
+  "type": "module",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "bun build src/index.ts --outdir dist --target node",
+    "start": "bun run src/index.ts",
+    "dev": "bun --watch src/index.ts"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.0.0"
+  },
+  "devDependencies": {
+    "@types/bun": "latest",
+    "typescript": "^6.0.3"
+  }
+}
